@@ -47,8 +47,8 @@ payload = {
     "Owner": int(owner),
 }
 
-st.write("### Payload being sent:")
-st.json(payload)
+# st.write("### Payload being sent:")
+# st.json(payload)
 
 if st.button("Predict Price 💰"):
     try:
